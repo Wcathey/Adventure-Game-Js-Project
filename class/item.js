@@ -1,7 +1,12 @@
-class Item {
-  // Item Class: Item should have name and description attributes
 
-  // Your code here 
+class Item {
+  constructor(name, description) {
+    this.name = name;
+    this.description = description;
+
+  }
+
+
 }
 
 module.exports = {
